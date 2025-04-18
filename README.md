@@ -1,2 +1,2 @@
 # oksidation
-Easily use Rust code from Kotlin
+A Gradle plugin to easily use Rust code from Kotlin
