@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4dbeb57-32cf-4c34-9764-dff839f9b368" name="Changes" comment="Got setup working">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="e4dbeb57-32cf-4c34-9764-dff839f9b368" name="Changes" comment="Use correct package naming">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oksidation-plugin/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/oksidation-plugin/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oksidation-plugin/src/main/kotlin/org/oksidation/OksidationPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oksidation-plugin/src/main/kotlin/dev/the_nerd2/oksidation/OksidationPlugin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oksidation-plugin/src/main/kotlin/dev/the_nerd2/oksidation/OksidationPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oksidation-plugin/src/main/kotlin/dev/the_nerd2/oksidation/Oksidation.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oksidation-test/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/oksidation-test/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,10 +22,26 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/oksidation-test">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -47,6 +60,9 @@
     &quot;accountId&quot;: &quot;2bd42a60-51b1-44ca-a8f3-35a64abb7afa&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="showPreview" value="true" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -58,17 +74,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHELLCHECK.PATH&quot;: &quot;/home/payton/.local/share/JetBrains/IdeaIC2024.2/Shell Script/shellcheck&quot;,
-    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/payton/IdeaProjects/oksidation&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.build-oksidation-test.executor": "Run",
+    "Gradle.oksidation-test:build.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHELLCHECK.PATH": "/home/payton/.local/share/JetBrains/IdeaIC2024.2/Shell Script/shellcheck",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/payton/IdeaProjects/oksidation"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/oksidation-plugin" />
@@ -80,6 +98,30 @@
       <recent name="org.oksidation" />
       <recent name="dev.the-nerd2." />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="oksidation-test:build" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/oksidation-test" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -97,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745008429623</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Use correct package naming">
+      <option name="closed" value="true" />
+      <created>1745090507071</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1745090507071</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,6 +163,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Got setup working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Got setup working" />
+    <MESSAGE value="Use correct package naming" />
+    <option name="LAST_COMMIT_MESSAGE" value="Use correct package naming" />
   </component>
 </project>
