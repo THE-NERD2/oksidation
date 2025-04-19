@@ -4,7 +4,7 @@ plugins {
     id("com.gradle.plugin-publish") version "1.2.1"
 }
 
-group = "org.oksidation"
+group = "dev.the-nerd2.oksidation"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -18,8 +18,8 @@ kotlin {
 gradlePlugin {
     plugins {
         create("oksidation") {
-            id = "org.oksidation"
-            implementationClass = "org.oksidation.OksidationPlugin"
+            id = "dev.the_nerd2.oksidation"
+            implementationClass = "dev.the_nerd2.oksidation.OksidationPlugin"
         }
     }
 }

@@ -4,28 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4dbeb57-32cf-4c34-9764-dff839f9b368" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oksidation-plugin/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oksidation-plugin/src/main/kotlin/org/oksidation/OksidationPlugin.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oksidation-test/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oksidation-test/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oksidation-test/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oksidation-test/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oksidation-test/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oksidation-test/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+    <list default="true" id="e4dbeb57-32cf-4c34-9764-dff839f9b368" name="Changes" comment="Got setup working">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oksidation-plugin/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/oksidation-plugin/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oksidation-plugin/src/main/kotlin/org/oksidation/OksidationPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oksidation-plugin/src/main/kotlin/dev/the_nerd2/oksidation/OksidationPlugin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oksidation-test/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/oksidation-test/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,35 +35,50 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;THE-NERD2&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/THE-NERD2/oksidation&quot;,
+    &quot;accountId&quot;: &quot;2bd42a60-51b1-44ca-a8f3-35a64abb7afa&quot;
+  }
+}</component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2vur0SN7MvR7HVGSwxnK7K2x3xh" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.codeium.enabled": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/payton/IdeaProjects/oksidation"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHELLCHECK.PATH&quot;: &quot;/home/payton/.local/share/JetBrains/IdeaIC2024.2/Shell Script/shellcheck&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/payton/IdeaProjects/oksidation&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/oksidation-plugin" />
     </key>
     <key name="K2MoveDeclarationsDialog.RECENT_PACKAGE_KEY">
+      <recent name="dev.the_nerd2.oksidation" />
+      <recent name="dev.the_nerd2..oksidation" />
+      <recent name="dev.the.oksidation" />
       <recent name="org.oksidation" />
-      <recent name="org.oksidation." />
-      <recent name="org.oksidation.plugin" />
+      <recent name="dev.the-nerd2." />
     </key>
   </component>
   <component name="TaskManager">
@@ -89,6 +89,15 @@
       <option name="presentableId" value="Default" />
       <updated>1745005577828</updated>
     </task>
+    <task id="LOCAL-00001" summary="Got setup working">
+      <option name="closed" value="true" />
+      <created>1745008429623</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745008429623</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,5 +110,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Got setup working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Got setup working" />
   </component>
 </project>

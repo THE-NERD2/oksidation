@@ -1,9 +1,9 @@
 plugins {
     kotlin("jvm") version "2.1.20"
-    id("org.oksidation")
+    id("dev.the_nerd2.oksidation")
 }
 
-group = "org.oksidation.test"
+group = "dev.the_nerd2.oksidation.test"
 version = "1.0-SNAPSHOT"
 
 repositories {
